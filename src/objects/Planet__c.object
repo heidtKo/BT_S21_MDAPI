@@ -469,108 +469,14 @@
         <active>true</active>
         <label>Earth Like</label>
         <picklistValues>
-            <picklist>Dominant_Life_Form__c</picklist>
-            <values>
-                <fullName>All Of them</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>Bacteria</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Insects</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Large Mammals</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium Sized Reptiles</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Small Mammals</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Small Reptiles</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Galaxy__c</picklist>
-            <values>
-                <fullName>Andromeda Galaxy</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>Cigar Galaxy</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Eye of Sauron</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Milky Way</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sub_Galaxy_Elements__c</picklist>
-            <values>
-                <fullName>Android Andromeda</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Camel Andromedar</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Cohiba</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Core Andromeda</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>East Milky Way</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Frodo Brings It</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Frodo Drops It</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Frodo Got It</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Hazelnut Milk Way</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>North Milky Way</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Vega Fina</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Vegueros</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Very Milky Way</fullName>
-                <default>false</default>
+                <default>true</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -584,11 +490,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Grey Rocks</fullName>
+                <fullName>Green Gas</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Less White Ice</fullName>
+                <fullName>Grey Rocks</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -620,34 +526,34 @@
                 <default>false</default>
             </values>
         </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>Gas_Giant</fullName>
-        <active>true</active>
-        <label>Gas Giant</label>
         <picklistValues>
             <picklist>Dominant_Life_Form__c</picklist>
             <values>
-                <fullName>Bacteria</fullName>
+                <fullName>All Of them</fullName>
                 <default>true</default>
             </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Galaxy__c</picklist>
             <values>
-                <fullName>Andromeda Galaxy</fullName>
+                <fullName>Bacteria</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Cigar Galaxy</fullName>
+                <fullName>Insects</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Eye of Sauron</fullName>
+                <fullName>Large Mammals</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Milky Way</fullName>
+                <fullName>Medium Sized Reptiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Mammals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Reptiles</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -703,6 +609,30 @@
             </values>
             <values>
                 <fullName>Very Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Gas_Giant</fullName>
+        <active>true</active>
+        <label>Gas Giant</label>
+        <picklistValues>
+            <picklist>Galaxy__c</picklist>
+            <values>
+                <fullName>Andromeda Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cigar Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eye of Sauron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milky Way</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -721,35 +651,11 @@
                 <default>true</default>
             </values>
         </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>Ice_Desert</fullName>
-        <active>true</active>
-        <label>Ice Desert</label>
         <picklistValues>
             <picklist>Dominant_Life_Form__c</picklist>
             <values>
                 <fullName>Bacteria</fullName>
                 <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Galaxy__c</picklist>
-            <values>
-                <fullName>Andromeda Galaxy</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Cigar Galaxy</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Eye of Sauron</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Milky Way</fullName>
-                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -804,6 +710,30 @@
             </values>
             <values>
                 <fullName>Very Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Ice_Desert</fullName>
+        <active>true</active>
+        <label>Ice Desert</label>
+        <picklistValues>
+            <picklist>Galaxy__c</picklist>
+            <values>
+                <fullName>Andromeda Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cigar Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eye of Sauron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milky Way</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -835,6 +765,68 @@
             </values>
             <values>
                 <fullName>Whiter Ice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Galaxy_Elements__c</picklist>
+            <values>
+                <fullName>Android Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camel Andromedar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cohiba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>East Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Brings It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Drops It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Got It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hazelnut Milk Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vega Fina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vegueros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Milky Way</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
