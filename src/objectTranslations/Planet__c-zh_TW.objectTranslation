@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <fields>
+        <label>主導生命形式</label>
+        <name>Dominant_Life_Form__c</name>
+    </fields>
+    <fields>
+        <label>星系</label>
+        <name>Galaxy__c</name>
+        <picklistValues>
+            <masterLabel>Andromeda Galaxy</masterLabel>
+            <translation>仙女座星系</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigar Galaxy</masterLabel>
+            <translation><!-- Cigar Galaxy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eye of Sauron</masterLabel>
+            <translation><!-- Eye of Sauron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milky Way</masterLabel>
+            <translation>銀河系</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>亞星系元素</label>
+        <name>Sub_Galaxy_Elements__c</name>
+        <picklistValues>
+            <masterLabel>Android Andromeda</masterLabel>
+            <translation><!-- Android Andromeda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camel Andromedar</masterLabel>
+            <translation><!-- Camel Andromedar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cohiba</masterLabel>
+            <translation><!-- Cohiba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Andromeda</masterLabel>
+            <translation><!-- Core Andromeda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Milky Way</masterLabel>
+            <translation><!-- East Milky Way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frodo Brings It</masterLabel>
+            <translation><!-- Frodo Brings It --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frodo Drops It</masterLabel>
+            <translation><!-- Frodo Drops It --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frodo Got It</masterLabel>
+            <translation><!-- Frodo Got It --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazelnut Milk Way</masterLabel>
+            <translation><!-- Hazelnut Milk Way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Milky Way</masterLabel>
+            <translation><!-- North Milky Way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vega Fina</masterLabel>
+            <translation><!-- Vega Fina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegueros</masterLabel>
+            <translation><!-- Vegueros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Milky Way</masterLabel>
+            <translation><!-- Very Milky Way --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>表麵類型</label>
+        <name>Surface_Type__c</name>
+        <picklistValues>
+            <masterLabel>Beach</masterLabel>
+            <translation>藍色氣體</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Gas</masterLabel>
+            <translation>藍色氣體</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forest</masterLabel>
+            <translation>森林</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Gas</masterLabel>
+            <translation><!-- Green Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey Gas</masterLabel>
+            <translation><!-- Grey Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey Rocks</masterLabel>
+            <translation><!-- Grey Rocks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less White Ice</masterLabel>
+            <translation><!-- Less White Ice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountains</masterLabel>
+            <translation><!-- Mountains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Rocks</masterLabel>
+            <translation>赤い岩</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>See</masterLabel>
+            <translation><!-- See --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shiny Rocks</masterLabel>
+            <translation><!-- Shiny Rocks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Ice</masterLabel>
+            <translation>白い氷</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Rocks</masterLabel>
+            <translation><!-- White Rocks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whiter Ice</masterLabel>
+            <translation><!-- Whiter Ice --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Planet Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Earth Like --></label>
+        <name>Earth_Like</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Gas Giant --></label>
+        <name>Gas_Giant</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ice Desert --></label>
+        <name>Ice_Desert</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please provide at least a name and a galaxy for your new planet. Come on. --></errorMessage>
+        <name>No_Empty_Name_or_Galaxy</name>
+    </validationRules>
+</CustomObjectTranslation>

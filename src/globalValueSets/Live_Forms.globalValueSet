@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bacteria</fullName>
+        <default>true</default>
+        <label>Bacteria</label>
+    </customValue>
+    <customValue>
+        <fullName>Insects</fullName>
+        <default>false</default>
+        <label>Insects</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Reptiles</fullName>
+        <default>false</default>
+        <label>Small Reptiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Medium Sized Reptiles</fullName>
+        <default>false</default>
+        <label>Medium Sized Reptiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Mammals</fullName>
+        <default>false</default>
+        <label>Small Mammals</label>
+    </customValue>
+    <customValue>
+        <fullName>Large Mammals</fullName>
+        <default>false</default>
+        <label>Large Mammals</label>
+    </customValue>
+    <customValue>
+        <fullName>All Of them</fullName>
+        <default>false</default>
+        <label>All Of them</label>
+    </customValue>
+    <masterLabel>Live Forms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

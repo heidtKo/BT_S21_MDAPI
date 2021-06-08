@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Planet_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Planet_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Dominant_Life_Form__c</fullName>
+        <externalId>false</externalId>
+        <label>Dominant Life Form</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Live_Forms</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Galaxy__c</fullName>
+        <externalId>false</externalId>
+        <label>Galaxy</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Milky Way</fullName>
+                    <default>false</default>
+                    <label>Milky Way</label>
+                </value>
+                <value>
+                    <fullName>Eye of Sauron</fullName>
+                    <default>false</default>
+                    <label>Eye of Sauron</label>
+                </value>
+                <value>
+                    <fullName>Andromeda Galaxy</fullName>
+                    <default>false</default>
+                    <label>Andromeda Galaxy</label>
+                </value>
+                <value>
+                    <fullName>Cigar Galaxy</fullName>
+                    <default>false</default>
+                    <label>Cigar Galaxy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Galaxy_Elements__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Galaxy Elements</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Galaxy__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>East Milky Way</fullName>
+                    <default>false</default>
+                    <label>East Milky Way</label>
+                </value>
+                <value>
+                    <fullName>North Milky Way</fullName>
+                    <default>false</default>
+                    <label>North Milky Way</label>
+                </value>
+                <value>
+                    <fullName>Very Milky Way</fullName>
+                    <default>false</default>
+                    <label>Very Milky Way</label>
+                </value>
+                <value>
+                    <fullName>Hazelnut Milk Way</fullName>
+                    <default>false</default>
+                    <label>Hazelnut Milk Way</label>
+                </value>
+                <value>
+                    <fullName>Core Andromeda</fullName>
+                    <default>false</default>
+                    <label>Core Andromeda</label>
+                </value>
+                <value>
+                    <fullName>Android Andromeda</fullName>
+                    <default>false</default>
+                    <label>Android Andromeda</label>
+                </value>
+                <value>
+                    <fullName>Camel Andromedar</fullName>
+                    <default>false</default>
+                    <label>Camel Andromedar</label>
+                </value>
+                <value>
+                    <fullName>Frodo Got It</fullName>
+                    <default>false</default>
+                    <label>Frodo Got It</label>
+                </value>
+                <value>
+                    <fullName>Frodo Brings It</fullName>
+                    <default>false</default>
+                    <label>Frodo Brings It</label>
+                </value>
+                <value>
+                    <fullName>Frodo Drops It</fullName>
+                    <default>false</default>
+                    <label>Frodo Drops It</label>
+                </value>
+                <value>
+                    <fullName>Vegueros</fullName>
+                    <default>false</default>
+                    <label>Vegueros</label>
+                </value>
+                <value>
+                    <fullName>Vega Fina</fullName>
+                    <default>false</default>
+                    <label>Vega Fina</label>
+                </value>
+                <value>
+                    <fullName>Cohiba</fullName>
+                    <default>false</default>
+                    <label>Cohiba</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Milky Way</controllingFieldValue>
+                <valueName>East Milky Way</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Milky Way</controllingFieldValue>
+                <valueName>North Milky Way</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Milky Way</controllingFieldValue>
+                <valueName>Very Milky Way</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Eye of Sauron</controllingFieldValue>
+                <valueName>Frodo Got It</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Eye of Sauron</controllingFieldValue>
+                <valueName>Frodo Brings It</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Eye of Sauron</controllingFieldValue>
+                <valueName>Frodo Drops It</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Andromeda Galaxy</controllingFieldValue>
+                <valueName>Core Andromeda</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Andromeda Galaxy</controllingFieldValue>
+                <valueName>Android Andromeda</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Andromeda Galaxy</controllingFieldValue>
+                <valueName>Camel Andromedar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cigar Galaxy</controllingFieldValue>
+                <valueName>Vegueros</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cigar Galaxy</controllingFieldValue>
+                <valueName>Vega Fina</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cigar Galaxy</controllingFieldValue>
+                <valueName>Cohiba</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Surface_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Surface Types</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Blue Gas</fullName>
+                    <default>false</default>
+                    <label>Blue Gas</label>
+                </value>
+                <value>
+                    <fullName>Green Gas</fullName>
+                    <default>false</default>
+                    <label>Green Gas</label>
+                </value>
+                <value>
+                    <fullName>Grey Gas</fullName>
+                    <default>false</default>
+                    <label>Grey Gas</label>
+                </value>
+                <value>
+                    <fullName>Forest</fullName>
+                    <default>false</default>
+                    <label>Forest</label>
+                </value>
+                <value>
+                    <fullName>See</fullName>
+                    <default>false</default>
+                    <label>See</label>
+                </value>
+                <value>
+                    <fullName>Mountains</fullName>
+                    <default>false</default>
+                    <label>Mountains</label>
+                </value>
+                <value>
+                    <fullName>Beach</fullName>
+                    <default>false</default>
+                    <label>Beach</label>
+                </value>
+                <value>
+                    <fullName>Red Rocks</fullName>
+                    <default>false</default>
+                    <label>Red Rocks</label>
+                </value>
+                <value>
+                    <fullName>Grey Rocks</fullName>
+                    <default>false</default>
+                    <label>Grey Rocks</label>
+                </value>
+                <value>
+                    <fullName>White Rocks</fullName>
+                    <default>false</default>
+                    <label>White Rocks</label>
+                </value>
+                <value>
+                    <fullName>Shiny Rocks</fullName>
+                    <default>false</default>
+                    <label>Shiny Rocks</label>
+                </value>
+                <value>
+                    <fullName>White Ice</fullName>
+                    <default>false</default>
+                    <label>White Ice</label>
+                </value>
+                <value>
+                    <fullName>Whiter Ice</fullName>
+                    <default>false</default>
+                    <label>Whiter Ice</label>
+                </value>
+                <value>
+                    <fullName>Less White Ice</fullName>
+                    <default>false</default>
+                    <label>Less White Ice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Planet</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Galaxy__c</columns>
+        <columns>Sub_Galaxy_Elements__c</columns>
+        <columns>Dominant_Life_Form__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Surface_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Gas_Giants</fullName>
+        <columns>NAME</columns>
+        <columns>Galaxy__c</columns>
+        <columns>Sub_Galaxy_Elements__c</columns>
+        <columns>Dominant_Life_Form__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Surface_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Planet__c.Gas_Giant</value>
+        </filters>
+        <label>All Gas Giants</label>
+    </listViews>
+    <nameField>
+        <label>Planet Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Planets</pluralLabel>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Earth_Like</fullName>
+        <active>true</active>
+        <label>Earth Like</label>
+        <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>All Of them</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insects</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large Mammals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium Sized Reptiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Mammals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Reptiles</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Galaxy__c</picklist>
+            <values>
+                <fullName>Andromeda Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cigar Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eye of Sauron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Galaxy_Elements__c</picklist>
+            <values>
+                <fullName>Android Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camel Andromedar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cohiba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>East Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Brings It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Drops It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Got It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hazelnut Milk Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vega Fina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vegueros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Surface_Type__c</picklist>
+            <values>
+                <fullName>Beach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less White Ice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mountains</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>See</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shiny Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Ice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Whiter Ice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Gas_Giant</fullName>
+        <active>true</active>
+        <label>Gas Giant</label>
+        <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Galaxy__c</picklist>
+            <values>
+                <fullName>Andromeda Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cigar Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eye of Sauron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Galaxy_Elements__c</picklist>
+            <values>
+                <fullName>Android Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camel Andromedar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cohiba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>East Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Brings It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Drops It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Got It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hazelnut Milk Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vega Fina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vegueros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Surface_Type__c</picklist>
+            <values>
+                <fullName>Blue Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey Gas</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Ice_Desert</fullName>
+        <active>true</active>
+        <label>Ice Desert</label>
+        <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Galaxy__c</picklist>
+            <values>
+                <fullName>Andromeda Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cigar Galaxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eye of Sauron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Galaxy_Elements__c</picklist>
+            <values>
+                <fullName>Android Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camel Andromedar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cohiba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Andromeda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>East Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Brings It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Drops It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frodo Got It</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hazelnut Milk Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North Milky Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vega Fina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vegueros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Milky Way</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Surface_Type__c</picklist>
+            <values>
+                <fullName>Grey Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less White Ice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shiny Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Ice</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>White Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Whiter Ice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Dominant_Life_Form__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Galaxy__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sub_Galaxy_Elements__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Surface_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>No_Empty_Name_or_Galaxy</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+   /**
+   * validation rules support comments. 
+   * If you need to change something, 
+   * you can just modify the comment
+   **/
+   ISBLANK( Name ) ,
+   ISPICKVAL( Galaxy__c, &quot;&quot; ) 
+)</errorConditionFormula>
+        <errorMessage>Please provide at least a name and a galaxy for your new planet. Come on.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

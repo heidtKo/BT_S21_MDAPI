@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ctx_labelDimension</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelDimension</shortDescription>
+        <value>my Dimension</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelGalaxy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelGalaxy</shortDescription>
+        <value>My Galaxy</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelPlanet</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelPlanet</shortDescription>
+        <value>My Planet</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelUniverse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelUniverse</shortDescription>
+        <value>Marvel Universe</value>
+    </labels>
+</CustomLabels>
