@@ -423,6 +423,11 @@
                     <default>false</default>
                     <label>Less White Ice</label>
                 </value>
+                <value>
+                    <fullName>TEST VALUE</fullName>
+                    <default>false</default>
+                    <label>TEST VALUE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
@@ -486,6 +491,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Blue Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Forest</fullName>
                 <default>false</default>
             </values>
@@ -494,7 +503,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Grey Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Grey Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less White Ice</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -511,6 +528,10 @@
             </values>
             <values>
                 <fullName>Shiny Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEST VALUE</fullName>
                 <default>false</default>
             </values>
             <values>
