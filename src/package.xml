@@ -6,6 +6,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Live_Forms</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
         <members>Planet__c.Earth_Like</members>
         <members>Planet__c.Gas_Giant</members>
         <members>Planet__c.Ice_Desert</members>
