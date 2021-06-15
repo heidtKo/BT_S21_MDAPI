@@ -8,7 +8,7 @@
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>US,USA,United States,United States of America, INT should</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.SLA__c</field>
@@ -212,7 +212,7 @@
         <fullName>ctx_Standard</fullName>
         <active>false</active>
         <ruleEntry>
-            <businessHoursSource>Case</businessHoursSource>
+            <businessHoursSource>CaseINT</businessHoursSource>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
