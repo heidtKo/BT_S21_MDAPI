@@ -9,7 +9,7 @@
         <value>Planets</value>
     </caseValues>
     <fields>
-        <label>life here MOD in source</label>
+        <label>This on has to appear from FB ok</label>
         <name>Dominant_Life_Form__c</name>
     </fields>
     <fields>
@@ -172,7 +172,7 @@
         <name>Earth_Like</name>
     </recordTypes>
     <recordTypes>
-        <label></label>
+        <label>This should NOT appear from FB wrong</label>
         <name>Gas_Giant</name>
     </recordTypes>
     <recordTypes>
