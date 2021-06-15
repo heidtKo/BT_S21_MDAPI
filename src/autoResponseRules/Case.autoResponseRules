@@ -7,7 +7,7 @@
             <criteriaItems>
                 <field>Case.Reason</field>
                 <operation>equals</operation>
-                <value>Installation,Equipment Complexity</value>
+                <value>Installation,Equipment Complexity, INT</value>
             </criteriaItems>
             <senderEmail>kheidt@copado.com</senderEmail>
             <senderName>testAutoResponseEntry</senderName>
