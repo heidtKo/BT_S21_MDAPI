@@ -91,7 +91,7 @@
     </assignmentRule>
     <assignmentRule>
         <fullName>ctx_Standard</fullName>
-        <active>true</active>
+        <active>false</active>
         <ruleEntry>
             <assignedTo>Enable_Sharing_Queue</assignedTo>
             <assignedToType>Queue</assignedToType>
