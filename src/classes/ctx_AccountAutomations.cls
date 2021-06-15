@@ -3,6 +3,7 @@ public class ctx_AccountAutomations {
     //I'm in the mood for a conflict
     
     Public static Account setDefaultDescription(Account a){
+        System.debug('Added line');
         If (a.Description != null) return a;
         Else {
             a.Description = 'Default description';
