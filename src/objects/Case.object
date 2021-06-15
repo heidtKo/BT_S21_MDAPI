@@ -221,7 +221,7 @@
     <compactLayouts>
         <fullName>XXX_compact_layout</fullName>
         <fields>AccountId</fields>
-        <fields>Reason</fields>
+        <fields>ReasonINT</fields>
         <fields>Origin</fields>
         <fields>OwnerId</fields>
         <label>XXX compact layout</label>
