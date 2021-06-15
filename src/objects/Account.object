@@ -566,7 +566,7 @@
         <hasMenubar>true</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
         <hasToolbar>true</hasToolbar>
-        <height>600</height>
+        <height>300</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
         <masterLabel>Billing</masterLabel>
