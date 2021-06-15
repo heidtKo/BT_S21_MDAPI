@@ -69,4 +69,15 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <tasks>
+        <fullName>this_is_to_test_wf_task_action</fullName>
+        <assignedTo>{!Environment.VAR_NAME_USER}</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>10</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>this is to test wf task action</subject>
+    </tasks>
 </Workflow>
