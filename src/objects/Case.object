@@ -255,7 +255,7 @@
     </fieldSets>
     <fields>
         <fullName>AAA_Custom_Field__c</fullName>
-        <defaultValue>false</defaultValue>
+        <defaultValue>falseFB</defaultValue>
         <externalId>false</externalId>
         <label>AAA Custom Field</label>
         <trackFeedHistory>false</trackFeedHistory>
