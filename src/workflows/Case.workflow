@@ -13,7 +13,7 @@
     </alerts>
     <fieldUpdates>
         <fullName>ChangePriorityToHigh</fullName>
-        <field>Priority</field>
+        <field>Priority INT should appear</field>
         <literalValue>High</literalValue>
         <name>Changes the case priority to high.</name>
         <notifyAssignee>false</notifyAssignee>
@@ -46,7 +46,7 @@
     <rules>
         <fullName>testWFRule</fullName>
         <actions>
-            <name>this_is_to_test_email_action_for_WF</name>
+            <name>this_is_to_test_email_action_for_WF INT should not appear</name>
             <type>Alert</type>
         </actions>
         <actions>
