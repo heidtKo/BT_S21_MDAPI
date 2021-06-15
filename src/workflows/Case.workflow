@@ -10,4 +10,30 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <rules>
+        <fullName>testWFRule</fullName>
+        <actions>
+            <name>this_is_to_test_email_action_for_WF</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>testFieldUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>testOutboundAction</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <actions>
+            <name>this_is_to_test_wf_task_action</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Reason</field>
+            <operation>equals</operation>
+            <value>Installation</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
 </Workflow>
