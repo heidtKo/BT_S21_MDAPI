@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.testOutboundAction</members>
-        <name>WorkflowOutboundMessage</name>
+        <members>Case.this_is_to_test_wf_task_action</members>
+        <name>WorkflowTask</name>
     </types>
     <version>51.0</version>
 </Package>
