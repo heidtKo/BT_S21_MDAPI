@@ -128,7 +128,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <comment>Action override created by Lightning App Builder during activationFB.</comment>
         <content>Planet_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -136,7 +136,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.INT</comment>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Planet_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -473,7 +473,7 @@
         <columns>Sub_Galaxy_Elements__c</columns>
         <columns>Dominant_Life_Form__c</columns>
         <columns>RECORDTYPE</columns>
-        <columns>Surface_Type__cINT</columns>
+        <columns>Surface_TypeFB__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>RECORDTYPE</field>
@@ -879,7 +879,7 @@
         <active>true</active>
         <errorConditionFormula>OR(
    /**
-   * INT validation rules support comments. 
+   * FB validation rules support comments. 
    * If you need to change something, 
    * you can just modify the comment
    **/

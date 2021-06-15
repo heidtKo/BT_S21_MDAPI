@@ -1,7 +1,7 @@
 <apex:page >
  
     <apex:canvasApp applicationName="Test Scrolling Visualforce" 
-        height="100px" width="800px" 
+        height="100px" width="300px" 
         border="2" scrolling="yes"/>
  
 </apex:page>

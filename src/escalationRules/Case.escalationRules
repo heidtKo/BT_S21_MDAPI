@@ -216,7 +216,7 @@
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America, INT wrong</value>
+                <value>US,USA,United States,United States of America, FB ok</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.SLA__c</field>

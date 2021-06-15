@@ -9,7 +9,7 @@
         <value>Planets</value>
     </caseValues>
     <fields>
-        <label>This cannot appear INT wrong</label>
+        <label>This on has to appear from FB ok</label>
         <name>Dominant_Life_Form__c</name>
     </fields>
     <fields>
@@ -172,7 +172,7 @@
         <name>Earth_Like</name>
     </recordTypes>
     <recordTypes>
-        <label>This should appear INT ok</label>
+        <label>This should NOT appear from FB wrong</label>
         <name>Gas_Giant</name>
     </recordTypes>
     <recordTypes>

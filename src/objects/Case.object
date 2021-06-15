@@ -198,7 +198,7 @@
     </actionOverrides>
     <businessProcesses>
         <fullName>XXX support process</fullName>
-        <description>descriptionINT</description>
+        <description>descriptionFB</description>
         <isActive>true</isActive>
         <values>
             <fullName>Closed</fullName>
@@ -221,7 +221,7 @@
     <compactLayouts>
         <fullName>XXX_compact_layout</fullName>
         <fields>AccountId</fields>
-        <fields>ReasonINT</fields>
+        <fields>ReasonFB</fields>
         <fields>Origin</fields>
         <fields>OwnerId</fields>
         <label>XXX compact layout</label>
@@ -240,7 +240,7 @@
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>
-        <description>This is used every where in my org.INT</description>
+        <description>This is used every where in my orgFB.</description>
         <displayedFields>
             <field>Reason</field>
             <isFieldManaged>false</isFieldManaged>
@@ -255,7 +255,7 @@
     </fieldSets>
     <fields>
         <fullName>AAA_Custom_Field__c</fullName>
-        <defaultValue>falseINT</defaultValue>
+        <defaultValue>falseFB</defaultValue>
         <externalId>false</externalId>
         <label>AAA Custom Field</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -680,7 +680,7 @@
         <fullName>XXX_record_type</fullName>
         <active>true</active>
         <businessProcess>XXX support process</businessProcess>
-        <description>descriptionINT</description>
+        <description>descriptionFB</description>
         <label>XXX record type</label>
         <picklistValues>
             <picklist>XXX_custom_picklist__c</picklist>

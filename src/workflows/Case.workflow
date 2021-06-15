@@ -23,7 +23,7 @@
     </fieldUpdates>
     <fieldUpdates>
         <fullName>testFieldUpdate</fullName>
-        <field>Description</field>
+        <field>Description FB should not appear</field>
         <name>testFieldUpdate</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Null</operation>
@@ -46,7 +46,7 @@
     <rules>
         <fullName>testWFRule</fullName>
         <actions>
-            <name>this_is_to_test_email_action_for_WF INT should not appear</name>
+            <name>this_is_to_test_email_action_for_WF FB must appear</name>
             <type>Alert</type>
         </actions>
         <actions>

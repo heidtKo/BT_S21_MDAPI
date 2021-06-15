@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldPermissions>
-        <editable>falseINT</editable>
-        <field>Case.invent_custom_picklist__c</field>
+        <editable>false</editable>
+        <field>Case.XXX_custom_picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
-        <fieldPermissions>
-        <editable>trueINT</editable>
-        <field>Case.XXX_custom_picklist__c</field>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.invent_custom_picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
