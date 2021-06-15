@@ -680,7 +680,7 @@
         <fullName>XXX_record_type</fullName>
         <active>true</active>
         <businessProcess>XXX support process</businessProcess>
-        <description>description</description>
+        <description>descriptionINT</description>
         <label>XXX record type</label>
         <picklistValues>
             <picklist>XXX_custom_picklist__c</picklist>
