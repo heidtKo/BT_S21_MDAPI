@@ -423,6 +423,11 @@
                     <default>false</default>
                     <label>Less White Ice</label>
                 </value>
+                <value>
+                    <fullName>TEST VALUE</fullName>
+                    <default>false</default>
+                    <label>TEST VALUE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
@@ -436,6 +441,18 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>orbit__c</fullName>
+        <externalId>false</externalId>
+        <label>orbit</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>Planet</label>
     <listViews>

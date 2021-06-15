@@ -21,6 +21,15 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>testFieldUpdate</fullName>
+        <field>Description</field>
+        <name>testFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>testWFRule</fullName>
         <actions>
