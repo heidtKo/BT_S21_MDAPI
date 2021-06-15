@@ -4,9 +4,4 @@
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>ctx_testVFPage</label>
-    <packageVersions>
-        <majorNumber>17</majorNumber>
-        <minorNumber>19</minorNumber>
-        <namespace>copado</namespace>
-    </packageVersions>
 </ApexPage>
