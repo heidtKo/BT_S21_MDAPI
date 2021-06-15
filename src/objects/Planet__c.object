@@ -473,7 +473,7 @@
         <columns>Sub_Galaxy_Elements__c</columns>
         <columns>Dominant_Life_Form__c</columns>
         <columns>RECORDTYPE</columns>
-        <columns>Surface_Type__c</columns>
+        <columns>Surface_Type__cINT</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>RECORDTYPE</field>
