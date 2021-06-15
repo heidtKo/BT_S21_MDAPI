@@ -136,6 +136,10 @@
             <translation></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>TEST VALUE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>White Ice</masterLabel>
             <translation></translation>
         </picklistValues>
@@ -151,6 +155,10 @@
     <fields>
         <label></label>
         <name>Test_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>orbit__c</name>
     </fields>
     <layouts>
         <layout>Planet Layout</layout>

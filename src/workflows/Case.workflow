@@ -5,7 +5,7 @@
         <description>this is to test email action for WF</description>
         <protected>false</protected>
         <recipients>
-            <recipient>bts21_dev1@btestt.copado.com</recipient>
+            <recipient>{!Environment.VAR_NAME_USER}</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

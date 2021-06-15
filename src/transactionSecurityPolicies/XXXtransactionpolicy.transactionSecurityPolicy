@@ -7,7 +7,7 @@
         <notifications>
             <inApp>true</inApp>
             <sendEmail>false</sendEmail>
-            <user>bts21_dev1@btestt.copado.com</user>
+            <user>{!Environment.VAR_NAME_USER}</user>
         </notifications>
         <twoFactorAuthentication>false</twoFactorAuthentication>
     </action>
