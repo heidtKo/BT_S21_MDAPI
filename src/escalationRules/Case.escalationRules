@@ -212,11 +212,11 @@
         <fullName>ctx_Standard</fullName>
         <active>false</active>
         <ruleEntry>
-            <businessHoursSource>CaseINT</businessHoursSource>
+            <businessHoursSource>Case</businessHoursSource>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>US,USA,United States,United States of America, INT wrong</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.SLA__c</field>
