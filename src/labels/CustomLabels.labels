@@ -4,14 +4,14 @@
         <fullName>XXX_custom_label</fullName>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>XXX custom label</shortDescription>
+        <shortDescription>XXX custom label FB ok</shortDescription>
         <value>this is the value modified with some random text</value>
     </labels>
     <labels>
         <fullName>ctx_labelDimension</fullName>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ctx_labelDimension</shortDescription>
+        <shortDescription>ctx_labelDimension FB wrong if appears</shortDescription>
         <value>my Dimension</value>
     </labels>
     <labels>
