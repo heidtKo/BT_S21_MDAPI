@@ -9,7 +9,7 @@
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>US,USA,United States,United States of America, FB wrong</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.SLA__c</field>
@@ -98,7 +98,7 @@
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>US,USA,United States,United States of America,FB good</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.SLA__c</field>
