@@ -879,7 +879,7 @@
         <active>true</active>
         <errorConditionFormula>OR(
    /**
-   * MOD validation rules support comments. 
+   * FB validation rules support comments. 
    * If you need to change something, 
    * you can just modify the comment
    **/
