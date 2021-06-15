@@ -13,7 +13,7 @@
     </action>
     <active>true</active>
     <developerName>XXXtransactionpolicy</developerName>
-    <eventName>ApiEvent</eventName>
+    <eventName>ApiEventFB</eventName>
     <flow>PolicyCondition_CyVTtRIFrTqtSUkOkzdP</flow>
     <masterLabel>XXX transaction policy</masterLabel>
     <type>CustomConditionBuilderPolicy</type>
