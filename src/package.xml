@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Planet__c.Dominant_Life_Form__c</members>
-        <members>Planet__c.Galaxy__c</members>
-        <members>Planet__c.LastActivityDate</members>
-        <members>Planet__c.Sub_Galaxy_Elements__c</members>
-        <members>Planet__c.Surface_Type__c</members>
-        <members>Planet__c.Test_Field__c</members>
-        <members>Planet__c.orbit__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Case.testFieldUpdate</members>
-        <name>WorkflowFieldUpdate</name>
+        <members>Case.testOutboundAction</members>
+        <name>WorkflowOutboundMessage</name>
     </types>
     <version>51.0</version>
 </Package>
