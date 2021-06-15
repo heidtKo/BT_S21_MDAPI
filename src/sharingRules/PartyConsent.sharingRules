@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>testSharingCriteria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>testSharingCriteria</label>
+        <sharedTo>
+            <group>blitzTetingGroup</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Action</field>
+            <operation>equals</operation>
+            <value>Target</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>
