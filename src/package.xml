@@ -29,6 +29,7 @@
         <members>Case.AAA_Custom_Field__c</members>
         <members>Case.XXX_custom_picklist__c</members>
         <members>Planet__c.Dominant_Life_Form__c</members>
+        <members>Planet__c.Test_Field__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -71,8 +72,13 @@
         <name>FieldSet</name>
     </types>
     <types>
+        <members>PolicyCondition_CyVTtRIFrTqtSUkOkzdP</members>
         <members>ctx_New_Account_Creation</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <members>blitzTetingGroup</members>
+        <name>Group</name>
     </types>
     <types>
         <members>Planet__c-Planet Layout</members>
@@ -133,6 +139,10 @@
     <types>
         <members>Account.Billing</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Case.this_is_to_test_email_action_for_WF</members>
+        <name>WorkflowAlert</name>
     </types>
     <types>
         <members>Case.testWFRule</members>

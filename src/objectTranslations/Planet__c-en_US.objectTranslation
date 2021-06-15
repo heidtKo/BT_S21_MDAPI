@@ -148,6 +148,10 @@
             <translation></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label></label>
+        <name>Test_Field__c</name>
+    </fields>
     <layouts>
         <layout>Planet Layout</layout>
         <sections>
