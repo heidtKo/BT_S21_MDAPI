@@ -30,6 +30,19 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <outboundMessages>
+        <fullName>testOutboundAction</fullName>
+        <apiVersion>51.0</apiVersion>
+        <endpointUrl>http://test.com</endpointUrl>
+        <fields>BusinessHoursId</fields>
+        <fields>CaseNumber</fields>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>{!Environment.VAR_NAME_USER}</integrationUser>
+        <name>testOutboundAction</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
     <rules>
         <fullName>testWFRule</fullName>
         <actions>
