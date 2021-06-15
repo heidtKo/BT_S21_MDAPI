@@ -9,7 +9,7 @@
         <value>Planets</value>
     </caseValues>
     <fields>
-        <label>life here MOD in source</label>
+        <label>This cannot appear INT wrong</label>
         <name>Dominant_Life_Form__c</name>
     </fields>
     <fields>
@@ -172,7 +172,7 @@
         <name>Earth_Like</name>
     </recordTypes>
     <recordTypes>
-        <label></label>
+        <label>This should appear INT ok</label>
         <name>Gas_Giant</name>
     </recordTypes>
     <recordTypes>
