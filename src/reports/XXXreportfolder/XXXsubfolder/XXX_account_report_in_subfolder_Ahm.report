@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>DUE_DATE</field>
+        <field>DUE_DATEINT</field>
     </columns>
     <columns>
         <field>USERS.NAME</field>
