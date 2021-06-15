@@ -198,7 +198,7 @@
     </actionOverrides>
     <businessProcesses>
         <fullName>XXX support process</fullName>
-        <description>description</description>
+        <description>descriptionFB</description>
         <isActive>true</isActive>
         <values>
             <fullName>Closed</fullName>
