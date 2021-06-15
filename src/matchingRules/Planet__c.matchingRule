@@ -4,7 +4,7 @@
         <fullName>Match_Similar_Planets</fullName>
         <label>Match Similar Planets</label>
         <matchingRuleItems>
-            <blankValueBehavior>MatchBlanksINT</blankValueBehavior>
+            <blankValueBehavior>MatchBlanksFB</blankValueBehavior>
             <fieldName>Galaxy__c</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
