@@ -6,11 +6,11 @@
         <name>Universe</name>
     </customApplications>
     <customLabels>
-        <label>Japanese translation for custom label MOD 私の世界</label>
+        <label>Japanese translation for custom label FB this one should appear 私の世界</label>
         <name>XXX_custom_label</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label>FB this one should not appear</label>
         <name>copado__ACADEMY</name>
     </customLabels>
     <customLabels>
