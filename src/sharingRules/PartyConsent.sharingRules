@@ -5,7 +5,7 @@
         <accessLevel>Edit</accessLevel>
         <label>testSharingCriteria</label>
         <sharedTo>
-            <group>blitzTetingGroup</group>
+            <group>blitzTetingGroupINT</group>
         </sharedTo>
         <criteriaItems>
             <field>Action</field>
