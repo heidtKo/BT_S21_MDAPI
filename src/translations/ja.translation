@@ -6,11 +6,11 @@
         <name>Universe</name>
     </customApplications>
     <customLabels>
-        <label>Wrong if appears</label>
+        <label>Japanese translation for Label A FB</label>
         <name>Label_A</name>
     </customLabels>
     <customLabels>
-        <label>Right if appears</label>
+        <label>Wrong if appears</label>
         <name>Label_B</name>
     </customLabels>
     <customLabels>
