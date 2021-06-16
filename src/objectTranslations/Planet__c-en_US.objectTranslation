@@ -9,7 +9,7 @@
         <value>Planets</value>
     </caseValues>
     <fields>
-        <label>This cannot appear INT wrong</label>
+        <label>the form that dominates life here</label>
         <name>Dominant_Life_Form__c</name>
     </fields>
     <fields>
@@ -136,10 +136,6 @@
             <translation></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>TEST VALUE</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>White Ice</masterLabel>
             <translation></translation>
         </picklistValues>
@@ -157,6 +153,14 @@
         <name>Test_Field__c</name>
     </fields>
     <fields>
+        <label>This is the Transaltion for A</label>
+        <name>Translation_Test_A__c</name>
+    </fields>
+    <fields>
+        <label>This is the Transaltion for B</label>
+        <name>Translation_Test_B__c</name>
+    </fields>
+    <fields>
         <label></label>
         <name>orbit__c</name>
     </fields>
@@ -172,7 +176,7 @@
         <name>Earth_Like</name>
     </recordTypes>
     <recordTypes>
-        <label>This should appear INT ok</label>
+        <label></label>
         <name>Gas_Giant</name>
     </recordTypes>
     <recordTypes>
