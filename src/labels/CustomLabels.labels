@@ -12,7 +12,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Label B</shortDescription>
-        <value>This is the custom label B</value>
+        <value>This is the custom label B Right</value>
     </labels>
     <labels>
         <fullName>XXX_custom_label</fullName>
