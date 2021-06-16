@@ -13,79 +13,79 @@
         <name>Dominant_Life_Form__c</name>
     </fields>
     <fields>
-        <label><!-- Galaxy --></label>
+        <label></label>
         <name>Galaxy__c</name>
         <picklistValues>
             <masterLabel>Andromeda Galaxy</masterLabel>
-            <translation><!-- Andromeda Galaxy --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Cigar Galaxy</masterLabel>
-            <translation><!-- Cigar Galaxy --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Eye of Sauron</masterLabel>
-            <translation><!-- Eye of Sauron --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Milky Way</masterLabel>
-            <translation><!-- Milky Way --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Sub Galaxy Elements --></label>
+        <label></label>
         <name>Sub_Galaxy_Elements__c</name>
         <picklistValues>
             <masterLabel>Android Andromeda</masterLabel>
-            <translation><!-- Android Andromeda --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Camel Andromedar</masterLabel>
-            <translation><!-- Camel Andromedar --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Cohiba</masterLabel>
-            <translation><!-- Cohiba --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Core Andromeda</masterLabel>
-            <translation><!-- Core Andromeda --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>East Milky Way</masterLabel>
-            <translation><!-- East Milky Way --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Frodo Brings It</masterLabel>
-            <translation><!-- Frodo Brings It --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Frodo Drops It</masterLabel>
-            <translation><!-- Frodo Drops It --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Frodo Got It</masterLabel>
-            <translation><!-- Frodo Got It --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Hazelnut Milk Way</masterLabel>
-            <translation><!-- Hazelnut Milk Way --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>North Milky Way</masterLabel>
-            <translation><!-- North Milky Way --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Vega Fina</masterLabel>
-            <translation><!-- Vega Fina --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Vegueros</masterLabel>
-            <translation><!-- Vegueros --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Very Milky Way</masterLabel>
-            <translation><!-- Very Milky Way --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -93,76 +93,84 @@
         <name>Surface_Type__c</name>
         <picklistValues>
             <masterLabel>Beach</masterLabel>
-            <translation><!-- Beach --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Blue Gas</masterLabel>
-            <translation><!-- Blue Gas --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Forest</masterLabel>
-            <translation><!-- Forest --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Green Gas</masterLabel>
-            <translation><!-- Green Gas --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grey Gas</masterLabel>
-            <translation><!-- Grey Gas --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grey Rocks</masterLabel>
-            <translation><!-- Grey Rocks --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Less White Ice</masterLabel>
-            <translation><!-- Less White Ice --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mountains</masterLabel>
-            <translation><!-- Mountains --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Red Rocks</masterLabel>
-            <translation><!-- Red Rocks --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>See</masterLabel>
-            <translation><!-- See --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Shiny Rocks</masterLabel>
-            <translation><!-- Shiny Rocks --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>White Ice</masterLabel>
-            <translation><!-- White Ice --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>White Rocks</masterLabel>
-            <translation><!-- White Rocks --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Whiter Ice</masterLabel>
-            <translation><!-- Whiter Ice --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label>This is the Transaltion for A</label>
+        <name>Translation_Test_A__c</name>
+    </fields>
+    <fields>
+        <label>This is the Transaltion for B</label>
+        <name>Translation_Test_B__c</name>
+    </fields>
     <recordTypes>
-        <label><!-- Earth Like --></label>
+        <label></label>
         <name>Earth_Like</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Gas Giant --></label>
+        <label></label>
         <name>Gas_Giant</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Ice Desert --></label>
+        <label></label>
         <name>Ice_Desert</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage><!-- Please provide at least a name and a galaxy for your new planet. Come on. --></errorMessage>
+        <errorMessage></errorMessage>
         <name>No_Empty_Name_or_Galaxy</name>
     </validationRules>
 </CustomObjectTranslation>
