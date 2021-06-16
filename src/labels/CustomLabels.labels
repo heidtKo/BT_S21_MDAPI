@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>Label_A</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Label A</shortDescription>
+        <value>This is the Label A</value>
+    </labels>
+    <labels>
+        <fullName>Label_B</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Label B</shortDescription>
+        <value>This is the custom label B</value>
+    </labels>
+    <labels>
         <fullName>ctx_labelDimension</fullName>
         <language>en_US</language>
         <protected>true</protected>
