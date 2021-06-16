@@ -6,7 +6,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Planet__c.Translation_Test_A__c</field>
         <readable>true</readable>
     </fieldPermissions>
