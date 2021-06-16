@@ -153,11 +153,11 @@
         <name>Test_Field__c</name>
     </fields>
     <fields>
-        <label>This is the Transaltion for A</label>
+        <label>Wrong if appears</label>
         <name>Translation_Test_A__c</name>
     </fields>
     <fields>
-        <label>This is the Transaltion for B</label>
+        <label>Right if appears</label>
         <name>Translation_Test_B__c</name>
     </fields>
     <fields>
