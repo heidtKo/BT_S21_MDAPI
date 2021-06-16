@@ -5,20 +5,12 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Label_A</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>Planet__c-en_US</members>
-        <name>CustomObjectTranslation</name>
+        <members>Planet__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>Test_Permission_Set</members>
         <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>ja</members>
-        <name>Translations</name>
     </types>
     <version>51.0</version>
 </Package>
