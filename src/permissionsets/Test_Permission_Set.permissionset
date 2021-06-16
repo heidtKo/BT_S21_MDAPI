@@ -7,11 +7,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.invent_custom_picklist__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Planet__c.Translation_Test_A__c</field>
         <readable>true</readable>
     </fieldPermissions>
