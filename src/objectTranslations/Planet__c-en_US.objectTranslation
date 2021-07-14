@@ -9,7 +9,7 @@
         <value>Planets</value>
     </caseValues>
     <fields>
-        <label>the form that dominates life here</label>
+        <label>life here MOD in source</label>
         <name>Dominant_Life_Form__c</name>
     </fields>
     <fields>
@@ -136,6 +136,10 @@
             <translation></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>TEST VALUE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>White Ice</masterLabel>
             <translation></translation>
         </picklistValues>
@@ -153,7 +157,7 @@
         <name>Test_Field__c</name>
     </fields>
     <fields>
-        <label>This is the Transaltion for A FB</label>
+        <label>This is the Transaltion for A</label>
         <name>Translation_Test_A__c</name>
     </fields>
     <fields>

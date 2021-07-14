@@ -516,6 +516,37 @@
         <active>true</active>
         <label>Earth Like</label>
         <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>All Of them</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insects</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large Mammals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium Sized Reptiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Mammals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Reptiles</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Galaxy__c</picklist>
             <values>
                 <fullName>Cigar Galaxy</fullName>
@@ -590,37 +621,6 @@
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Dominant_Life_Form__c</picklist>
-            <values>
-                <fullName>All Of them</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>Bacteria</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Insects</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Large Mammals</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium Sized Reptiles</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Small Mammals</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Small Reptiles</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Sub_Galaxy_Elements__c</picklist>
             <values>
                 <fullName>Android Andromeda</fullName>
@@ -681,6 +681,13 @@
         <active>true</active>
         <label>Gas Giant</label>
         <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Galaxy__c</picklist>
             <values>
                 <fullName>Andromeda Galaxy</fullName>
@@ -711,13 +718,6 @@
             </values>
             <values>
                 <fullName>Grey Gas</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Dominant_Life_Form__c</picklist>
-            <values>
-                <fullName>Bacteria</fullName>
                 <default>true</default>
             </values>
         </picklistValues>
@@ -782,6 +782,13 @@
         <active>true</active>
         <label>Ice Desert</label>
         <picklistValues>
+            <picklist>Dominant_Life_Form__c</picklist>
+            <values>
+                <fullName>Bacteria</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Galaxy__c</picklist>
             <values>
                 <fullName>Andromeda Galaxy</fullName>
@@ -829,13 +836,6 @@
             <values>
                 <fullName>Whiter Ice</fullName>
                 <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Dominant_Life_Form__c</picklist>
-            <values>
-                <fullName>Bacteria</fullName>
-                <default>true</default>
             </values>
         </picklistValues>
         <picklistValues>

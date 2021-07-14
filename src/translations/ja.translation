@@ -6,7 +6,7 @@
         <name>Universe</name>
     </customApplications>
     <customLabels>
-        <label>Japanese translation for Label A FB</label>
+        <label>Japanese translation for Label A</label>
         <name>Label_A</name>
     </customLabels>
     <customLabels>
@@ -16,6 +16,10 @@
     <customLabels>
         <label>Japanese translation for custom label MOD 私の世界</label>
         <name>XXX_custom_label</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
+        <name>aseguraTest</name>
     </customLabels>
     <customLabels>
         <label></label>
@@ -7964,6 +7968,10 @@
     <customLabels>
         <label>私の世界</label>
         <name>ctx_labelUniverse</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
+        <name>timTest</name>
     </customLabels>
     <flowDefinitions>
         <flows>

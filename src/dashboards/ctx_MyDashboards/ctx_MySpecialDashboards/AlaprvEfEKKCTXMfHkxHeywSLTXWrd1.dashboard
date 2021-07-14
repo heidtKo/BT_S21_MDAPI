@@ -87,7 +87,7 @@
     </dashboardGridLayout>
     <dashboardType>LoggedInUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>bts21_dev1@btestt.copado.com</runningUser>
+    <runningUser>{!Environment.VAR_NAME_USER}</runningUser>
     <textColor>#000000</textColor>
     <title>ctx child Folder dash</title>
     <titleColor>#000000</titleColor>
