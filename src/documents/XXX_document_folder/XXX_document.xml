@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>PS15th_june</members>
+    <name>PermissionSet</name>
+  </types>
+  <types>
+    <members>object15thJune__c.F3_15th_june__c</members>
+    <name>CustomField</name>
+  </types>
+  <version>51.0</version>
+</Package>

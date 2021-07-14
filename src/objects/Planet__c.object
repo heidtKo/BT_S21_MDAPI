@@ -423,9 +423,24 @@
                     <default>false</default>
                     <label>Less White Ice</label>
                 </value>
+                <value>
+                    <fullName>TEST VALUE</fullName>
+                    <default>false</default>
+                    <label>TEST VALUE</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Test_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test Field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Translation_Test_A__c</fullName>
@@ -446,6 +461,18 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>orbit__c</fullName>
+        <externalId>false</externalId>
+        <label>orbit</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>Planet</label>
     <listViews>
@@ -522,19 +549,74 @@
         <picklistValues>
             <picklist>Galaxy__c</picklist>
             <values>
-                <fullName>Andromeda Galaxy</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Cigar Galaxy</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Eye of Sauron</fullName>
+                <fullName>Milky Way</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Surface_Type__c</picklist>
+            <values>
+                <fullName>Beach</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Milky Way</fullName>
+                <fullName>Blue Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less White Ice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mountains</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>See</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shiny Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEST VALUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Ice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Whiter Ice</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -590,53 +672,6 @@
             </values>
             <values>
                 <fullName>Very Milky Way</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Surface_Type__c</picklist>
-            <values>
-                <fullName>Beach</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Forest</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Grey Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Less White Ice</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mountains</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>Red Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>See</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Shiny Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>White Ice</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>White Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Whiter Ice</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -672,6 +707,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Surface_Type__c</picklist>
+            <values>
+                <fullName>Blue Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey Gas</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Sub_Galaxy_Elements__c</picklist>
             <values>
                 <fullName>Android Andromeda</fullName>
@@ -724,21 +774,6 @@
             <values>
                 <fullName>Very Milky Way</fullName>
                 <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Surface_Type__c</picklist>
-            <values>
-                <fullName>Blue Gas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Green Gas</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Grey Gas</fullName>
-                <default>true</default>
             </values>
         </picklistValues>
     </recordTypes>
@@ -773,6 +808,37 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Surface_Type__c</picklist>
+            <values>
+                <fullName>Grey Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Less White Ice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shiny Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Ice</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>White Rocks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Whiter Ice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Sub_Galaxy_Elements__c</picklist>
             <values>
                 <fullName>Android Andromeda</fullName>
@@ -827,37 +893,6 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>Surface_Type__c</picklist>
-            <values>
-                <fullName>Grey Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Less White Ice</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Red Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Shiny Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>White Ice</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>White Rocks</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Whiter Ice</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
     </recordTypes>
     <searchLayouts>
         <searchResultsAdditionalFields>Dominant_Life_Form__c</searchResultsAdditionalFields>
@@ -872,7 +907,7 @@
         <active>true</active>
         <errorConditionFormula>OR(
    /**
-   * validation rules support comments. 
+   * MOD validation rules support comments. 
    * If you need to change something, 
    * you can just modify the comment
    **/

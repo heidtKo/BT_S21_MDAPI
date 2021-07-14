@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <customApplications>
         <label></label>
         <name>Universe</name>
@@ -11,6 +12,14 @@
     <customLabels>
         <label>This is the Japanese translation for Label B</label>
         <name>Label_B</name>
+    </customLabels>
+    <customLabels>
+        <label>Japanese translation for custom label MOD 私の世界</label>
+        <name>XXX_custom_label</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
+        <name>aseguraTest</name>
     </customLabels>
     <customLabels>
         <label></label>
@@ -7960,6 +7969,22 @@
         <label>私の世界</label>
         <name>ctx_labelUniverse</name>
     </customLabels>
+    <customLabels>
+        <label></label>
+        <name>timTest</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows>
+            <fullName n1:nil="true" />
+            <textTemplates>
+                <name>multipleRecordsFoundTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>noRecordsFoundTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>ctx_New_Account_Creation</fullName>
+    </flowDefinitions>
     <quickActions>
         <label></label>
         <name>LogACall</name>

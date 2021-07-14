@@ -15,6 +15,20 @@
         <value>This is the custom label B</value>
     </labels>
     <labels>
+        <fullName>XXX_custom_label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>XXX custom label</shortDescription>
+        <value>this is the value modified with some random text</value>
+    </labels>
+    <labels>
+        <fullName>aseguraTest</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>aseguraTest</shortDescription>
+        <value>Test value</value>
+    </labels>
+    <labels>
         <fullName>ctx_labelDimension</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -41,5 +55,12 @@
         <protected>true</protected>
         <shortDescription>ctx_labelUniverse</shortDescription>
         <value>Marvel Universe</value>
+    </labels>
+    <labels>
+        <fullName>timTest</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>timTest</shortDescription>
+        <value>If I am trimmed correctly, I am the only label in the deployed file.</value>
     </labels>
 </CustomLabels>
