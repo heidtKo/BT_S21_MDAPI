@@ -2,5 +2,5 @@
 <Document xmlns="http://soap.sforce.com/2006/04/metadata">
     <internalUseOnly>false</internalUseOnly>
     <name>XXX document</name>
-    <public>falseINT</public>
+    <public>false</public>
 </Document>

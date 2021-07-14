@@ -6,16 +6,20 @@
         <name>Universe</name>
     </customApplications>
     <customLabels>
-        <label>Wrong if appears</label>
+        <label>Japanese translation for Label A</label>
         <name>Label_A</name>
     </customLabels>
     <customLabels>
-        <label>Right if appears</label>
+        <label>This is the Japanese translation for Label B</label>
         <name>Label_B</name>
     </customLabels>
     <customLabels>
-        <label>Japanese translation for custom label INT this one should not appear 私の世界</label>
+        <label>Japanese translation for custom label MOD 私の世界</label>
         <name>XXX_custom_label</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
+        <name>aseguraTest</name>
     </customLabels>
     <customLabels>
         <label></label>
@@ -7964,6 +7968,10 @@
     <customLabels>
         <label>私の世界</label>
         <name>ctx_labelUniverse</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
+        <name>timTest</name>
     </customLabels>
     <flowDefinitions>
         <flows>

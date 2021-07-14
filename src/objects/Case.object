@@ -198,7 +198,7 @@
     </actionOverrides>
     <businessProcesses>
         <fullName>XXX support process</fullName>
-        <description>descriptionINT</description>
+        <description>description</description>
         <isActive>true</isActive>
         <values>
             <fullName>Closed</fullName>
@@ -255,7 +255,7 @@
     </fieldSets>
     <fields>
         <fullName>AAA_Custom_Field__c</fullName>
-        <defaultValue>falseINT</defaultValue>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>AAA Custom Field</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -680,7 +680,7 @@
         <fullName>XXX_record_type</fullName>
         <active>true</active>
         <businessProcess>XXX support process</businessProcess>
-        <description>descriptionINT</description>
+        <description>description</description>
         <label>XXX record type</label>
         <picklistValues>
             <picklist>XXX_custom_picklist__c</picklist>
