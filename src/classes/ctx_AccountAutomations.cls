@@ -29,4 +29,8 @@ public class ctx_AccountAutomations {
         a.website = 'www.copado.com'; 
         return a;
     }
+
+    public static void setDefaultHelloWorld() {
+        System.debug('Hello World'); 
+    }
 }

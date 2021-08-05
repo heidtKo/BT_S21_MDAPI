@@ -45,4 +45,7 @@ private class ctx_AccountAutomationsTest {
         System.assertEquals('www.copado.com', acc.Website, 'Default website is www.copado.com');
     }
 
+    @isTest static void testDefaultHelloWorld(){
+        ctx_AccountAutomations.setDefaultHelloWorld();
+    }
 }
