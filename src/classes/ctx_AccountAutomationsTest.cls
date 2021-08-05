@@ -1,6 +1,8 @@
 @IsTest
 private class ctx_AccountAutomationsTest {
 
+    //New Comment, please conflict
+    
     @isTest static void testDefaultDescription(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
@@ -44,7 +46,6 @@ private class ctx_AccountAutomationsTest {
         acc = ctx_AccountAutomations.setDefaultURL(acc);
         System.assertEquals('www.copado.com', acc.Website, 'Default website is www.copado.com');
     }
-
     @isTest static void testDefaultHelloWorld(){
         ctx_AccountAutomations.setDefaultHelloWorld();
     }
